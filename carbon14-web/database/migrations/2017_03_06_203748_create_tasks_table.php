@@ -18,6 +18,12 @@ class CreateTasksTable extends Migration
             $table->string('name', 255);
             $table->bigInteger('category_id');
         });
+
+        Schema::table('tasks', function(Blueprint $table) {
+            $table->foreign('category_id')->references('id')->on('categories')
+                        ->onDelete('restrict')
+                        ->onUpdate('restrict');
+        });
     }
 
     /**

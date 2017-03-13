@@ -19,6 +19,12 @@ class CreateTimeSheetsTable extends Migration
             $table->dateTime('startdate');
             $table->bigInteger('user_id');
         });
+
+        Schema::table('time_sheets', function(Blueprint $table) {
+            $table->foreign('user_id')->references('id')->on('users')
+                        ->onDelete('restrict')
+                        ->onUpdate('restrict');
+        });
     }
 
     /**
