@@ -15,14 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/admin-gestionutilisateur', function () {
-    return view('admin-gestionutilisateur');
-});
+Route::get('admin-gestionutilisateur', 'TasksController@show1');
 
-Route::get('/admin', function () {
-    return view('admin');
-});
+Route::get('admin', 'TasksController@show2');
 
-Route::get('/user', function () {
-    return view('user');
-});
+Route::get('user', 'TasksController@show3');
