@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('admin-gestionutilisateur', 'TasksController@show1');
+
+Route::get('admin', 'TasksController@show2');
+
+Route::get('user', 'TasksController@show3');
