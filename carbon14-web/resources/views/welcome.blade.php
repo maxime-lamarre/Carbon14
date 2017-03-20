@@ -26,7 +26,7 @@
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de Passe">
                 </div>
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="admin.html" role="button">Connexion</a>
+                    <a class="btn btn-primary btn-lg" href="admin" role="button">Connexion</a>
                 </p>
             </div>
         </div>

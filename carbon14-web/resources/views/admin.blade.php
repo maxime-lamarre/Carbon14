@@ -26,7 +26,7 @@
         <ul class="navbar-nav mr-auto">
         </ul>
         <form class="form-inline mt-2 mt-md-0">
-          <a class="btn  btn-outline-success my-2 my-sm-0" href="login.html" type="submit">Déconnexion</a>
+          <a class="btn  btn-outline-success my-2 my-sm-0" href="/" type="submit">Déconnexion</a>
         </form>
       </div>
     </nav>
@@ -90,29 +90,29 @@
             <tbody>
                 <tr>
                 <th scope="row">1</th>
-                <td><a href="admin-gestionutilisateur.html">Vincent De Guille-Jacques</a></td>
+                <td><a href="admin-gestionutilisateur">Vincent De Guille-Jacques</a></td>
                 <td>0 feuilles</td>
                 <td><a href="#">Supprimer</a></td>
                 </tr>
                 <tr>
                 <th scope="row">2</th>
-                <td><a href="admin-gestionutilisateur.html">Mathieu Poulin</a></td>
+                <td><a href="admin-gestionutilisateur">Mathieu Poulin</a></td>
                 <td>0 feuilles</td>
                 <td><a href="#">Supprimer</a></td>
                 </tr>
                 <tr>
                 <th scope="row">3</th>
-                <td><a href="admin-gestionutilisateur.html">Guillaume Fortin</a></td>
+                <td><a href="admin-gestionutilisateur">Guillaume Fortin</a></td>
                 <td>0 feuilles</td>
                 <td><a href="#">Supprimer</a></td>
                 </tr>
                 <th scope="row">4</th>
-                <td><a href="admin-gestionutilisateur.html">Maxime Lamarre</a></td>
+                <td><a href="admin-gestionutilisateur">Maxime Lamarre</a></td>
                 <td>0 feuilles</td>
                 <td><a href="#">Supprimer</a></td>
                 </tr>
                 <th scope="row">5</th>
-                <td><a href="admin-gestionutilisateur.html">Boravan Ung</a></td>
+                <td><a href="admin-gestionutilisateur">Boravan Ung</a></td>
                 <td>0 feuilles</td>
                 <td><a href="#">Supprimer</a></td>
                 </tr>
@@ -123,7 +123,7 @@
                 </tr>
             </tbody>
             </table>
-            <a class="btn  btn-outline-success my-2 my-sm-0" href="login.html" type="submit">Ajouter un utilisateur</a>
+            <a class="btn  btn-outline-success my-2 my-sm-0" href="/" type="submit">Ajouter un utilisateur</a>
           </div>
         </main>
       </div>
