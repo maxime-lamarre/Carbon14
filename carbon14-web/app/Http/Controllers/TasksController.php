@@ -15,7 +15,7 @@ class TasksController extends Controller
 
       public function show2()
       {
-          return view('admin');
+          return view('welcome');
       }
 
       public function show3()
