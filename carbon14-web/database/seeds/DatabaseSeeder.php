@@ -17,15 +17,17 @@ class DatabaseSeeder extends Seeder
             ['firstname' => 'bertrand',
             'lastname' => 'bouge',
             'title' => 'developper',
-            'user_role' => 'User',
+            'is_admin' => '0',
             'password' => bcrypt('admin'),
-            'contact_info' => 'admin@la.fr'],
-            ['firstname' => 'ets',
-            'lastname' => 'ets',
+            'contact_info' => 'user@la.fr',
+            'email' => 'admin@la.fr']
+            ['firstname' => 'admin',
+            'lastname' => 'admin',
             'title' => 'developper',
-            'user_role' => 'Admin',
+            'is_admin' => '1',
             'password' => bcrypt('admin'),
-            'contact_info' => 'admin@la.fr']
+            'contact_info' => 'admin@la.fr',
+            'email' => 'admin@la.fr']
         ]);
         
     }

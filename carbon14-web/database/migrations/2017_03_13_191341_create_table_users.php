@@ -18,10 +18,14 @@ class CreateTableUsers extends Migration
             $table->increments('id');
             $table->string('firstname');
             $table->string('lastname');
+            $table->string('email')->unique();
             $table->string('title');
-            $table->string('user_role');
+            $table->tinyInteger('is_admin')->default(0);
             $table->string('password');
             $table->string('contact_info');
+
+            $table->index('email');
+            $table->index('is_admin');
         });
     }
 
